@@ -32,7 +32,7 @@ ol {
   list-style: decimal;
 }
 
-article a {
+a {
   color: rgb(160, 50, 105);
   font-weight: 600;
 }
@@ -55,6 +55,7 @@ header {
   box-shadow: 10px 10px 8px -3px rgba(0, 0, 0, 0.3),
     -10px 8px 15px -3px rgba(0, 0, 0, 0.3);
   border: 1px #ffffff6e;
+  text-align: center;
 }
 
 header h3 {
@@ -122,16 +123,25 @@ td {
 }
 
 /* FORM */
-
+button {
+  background-color: #3f5ce0;
+  color: #ffffff;
+  border-color: #ffffff00;
+}
+input {
+  border: 0px dotted #e0e0e0;
+}
 /* ELEMENTI NELL' ASIDE */
 #news {
   background-color: rgb(232, 232, 232);
   margin-top: 1em;
+  margin-bottom: 1em;
   padding: 1em;
 }
 
 .article {
   background-color: rgb(232, 232, 232);
+  border: 2px solid lightgray;
   margin-top: 1em;
   padding: 1em;
 }
@@ -140,4 +150,29 @@ td {
   font-size: small;
   text-align: right;
 }
+
+.article a {
+  color: #35a3be;
+}
 /* FOOTER */
+footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: rgb(0, 97, 124);
+  background: linear-gradient(0deg, rgb(0, 35, 35) 0%, rgb(0, 87, 104) 100%);
+  box-shadow: 10px 10px 8px -3px rgba(0, 0, 0, 0.3),
+    -10px 8px 15px -3px rgba(0, 0, 0, 0.3);
+  border: 1px #ffffff6e;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+footer a {
+  color: rgb(255, 140, 203);
+}
