@@ -239,24 +239,17 @@ footer a {
     text-align: right;
   }
 
-  aside {
-    display: block;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-  }
-
   aside div {
-    display: flex;
-    margin: 0;
-    max-width: 500px;
-    justify-content: center;
+    display: inline-block;
+    width: 33%;
   }
 
-  aside h2 {
-    text-align: center;
-    margin: 20px;
-    display: block;
+  article iframe {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+  }
+  article section {
+    display: inline-block;
   }
 }
